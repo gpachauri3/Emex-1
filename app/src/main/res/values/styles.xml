@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="App" parent="Theme.AppCompat.DayNight.DarkActionBar"></style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Test">
+        <item name="android:layout_marginRight">33.8dp</item>
+        <item name="android:layout_marginLeft">33.8dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@color/buttonBackground</item>
+    </style>
+    <style name="EmailLogin">
+        <item name="android:layout_marginLeft">33.8dp</item>
+        <item name="android:layout_marginRight">33.8dp</item>
+        <item name="android:layout_marginBottom">327dp</item>
+        <item name="android:layout_marginTop">311dp</item>
+    </style>
+    <style name="PassLogin">
+        <item name="android:layout_marginLeft">33.8dp</item>
+        <item name="android:layout_marginRight">33.8dp</item>
+        <item name="android:layout_marginTop">350dp</item>
+
+    </style>
+    <style name="PM10">
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:drawablePadding">5dp</item>
+    </style>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#d3d3d3</color>
+    <color name="buttonBackground">#51a7f9</color>
+    <color name="DarkGray">#4a4a4a</color>
+    <color name="Midblue">#18568c</color>
+    <color name="online">#009a00</color>
+    <color name="Warmgrey">#9b9b9b</color>
+    <color name="onlinered">#ee1d25</color>
+    <color name="Black">#000000</color>
+
+
+</resources>

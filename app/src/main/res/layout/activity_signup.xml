@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="274dp"
+        android:layout_height="137dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:src="@drawable/user_placeholder"
+        />
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        >
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/firstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="First Name">
+
+            <EditText
+            android:textColor="@color/buttonBackground"
+            android:layout_width="match_parent"
+                android:hint="First Name"
+            android:layout_height="wrap_content"
+
+                style="@style/PM10"
+            android:textColorHint="@android:color/darker_gray"
+                android:drawableLeft="@drawable/icon_name"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/lastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Last Name">
+        <EditText
+            android:textColor="@color/buttonBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/PM10"
+
+            android:hint="Last Name"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/icon_name"
+            android:textColorHint="@android:color/darker_gray"
+            />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        >
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/contactnumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Contact Number">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height= "wrap_content"
+            android:hint="Contact Number"
+            android:textColorHint="@android:color/darker_gray"
+            android:drawableLeft="@drawable/icon_contact"
+            android:textColor="@color/buttonBackground"
+            style="@style/PM10"
+            />
+</android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Email">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textColorHint="@android:color/darker_gray"
+            android:drawableLeft="@drawable/icon_email"
+            style="@style/PM10"
+            android:textColor="@color/buttonBackground"
+            />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Password">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textColorHint="@android:color/darker_gray"
+            android:drawableLeft="@drawable/icon_password"
+            android:textColor="@color/buttonBackground"
+            style="@style/PM10"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="ConfirmPassword">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/PM10"
+            android:textColorHint="@android:color/darker_gray"
+            android:hint="ConfirmPassword"
+            android:drawableLeft="@drawable/icon_password"
+            android:textColor="@color/buttonBackground"
+            />
+        </android.support.design.widget.TextInputLayout>
+
+
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I accept"
+                android:textColor="@android:color/darker_gray"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Terms of Service"
+                android:layout_marginLeft="5dp"
+                android:textColor="#51a7f9"
+                android:clickable="true"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="and"
+                android:textColor="@android:color/darker_gray"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Privacy Policy"
+                android:textColor="@color/buttonBackground"
+                android:clickable="true"
+                android:layout_marginLeft="5dp"
+                />
+        </LinearLayout>
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Signup"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:background="@color/buttonBackground"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            style="@style/PM10"/>
+</LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+
